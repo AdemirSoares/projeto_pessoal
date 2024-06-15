@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(58, 6, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350;
+    height: 50px;
+}
+
+.logo {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: left;
+}
+
+header div a {
+    margin-left: 50px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.inicio nav a {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.inicio nav a:hover {
+    color: gray;
+}
+
+header div a:hover {
+    color: gray;
+}
+
+section {
+    padding: 20px;
+    max-width: 1350px;
+    height: 630px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.home {
+    background-color: rgb(78, 94, 55);
+}
+.forest {
+    background-color: rgb(196, 241, 196);
+}
+
+.humanity {
+    background-color: rgb(204, 191, 191);
+}
+
+.sea {
+    background-color: rgb(206, 206, 240);
+}
+
+.city {
+    background-color: rgb(157, 202, 231);
+}
+
+.literature {
+    background-color: rgb(214, 212, 212);
+}
+
+.block {
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section img {
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+
+.block p {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(58, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+strong {
+    font-size: 30px;
+}
+
+.copyright {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+}
